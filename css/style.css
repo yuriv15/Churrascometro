@@ -1,5 +1,5 @@
 body {
-    background-image: url("/images/barbecue.jpg");
+    background-image: url("../images/barbecue.jpg");
     background-size: 250px;
 }
 
@@ -9,14 +9,14 @@ body {
     padding: 50px 50px 10px 50px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -35%);
     border-radius: 15px;
 }
 
 #logo {
     width: 320px;
     margin: 0;
-    opacity: 0.71;
+    opacity: 0.70;
 }
 
 #titulo {
