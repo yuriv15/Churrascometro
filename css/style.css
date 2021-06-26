@@ -1,0 +1,77 @@
+body {
+    background-image: url("/images/barbecue.jpg");
+    background-size: 250px;
+}
+
+#container {
+    background-color: rgba(99, 40, 0, 0.89);
+    position: absolute;
+    padding: 50px 50px 10px 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+
+#logo {
+    width: 320px;
+    margin: 0;
+    opacity: 0.7;
+}
+
+#titulo {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    padding: 20px;
+    background-color: rgba(228, 141, 35, 0.144);
+    border-radius: 15px;
+    transform: translate(-50%, -5%);
+    color: rgb(99, 39, 0);
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 120px;
+}
+
+.dados {
+    display: block;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 300px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(228, 141, 35, 0.37);
+    color: rgba(255, 255, 255, 0.897);
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.897);
+}
+
+#botao{
+    padding: 20px 15px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background-color: rgb(99, 39, 0);
+    color: rgb(228, 141, 35);
+    width: 333px;
+    border-radius: 50px;
+    border-color: rgb(228, 141, 35);
+    border: solid 3px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.resultado {
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgb(228, 141, 35);
+}
+
+#creditos {
+    text-align: center;
+    color: rgb(228, 141, 35);
+    margin-top: 60px;
+}
