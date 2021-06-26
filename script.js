@@ -16,7 +16,7 @@ function calcular() {
     if (duracao <= 6) {
         carne = parseFloat(0.4 * adultos + 0.4 * 0.5 * criancas).toFixed(2);
         cerveja = parseFloat(1.2 * adultos + 1.2 * 0.5 * criancas).toFixed(2);
-        refri_agua = parseFloat(adultos + 0.5 * criancas).toFixed(2);
+        refri_agua = parseFloat(1 * adultos + 1 * 0.5 * criancas).toFixed(2);
     } else {
         carne = parseFloat(0.65 * adultos + 0.65 * 0.5 * criancas).toFixed(2);
         cerveja = parseFloat(2 * adultos + 2 * 0.5 * criancas).toFixed(2);

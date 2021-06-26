@@ -4,13 +4,12 @@ body {
 }
 
 #container {
+    max-width: fit-content;
     background-color: rgba(99, 40, 0, 0.89);
-    position: absolute;
     padding: 50px 50px 10px 50px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -35%);
     border-radius: 15px;
+    margin: auto;
+    text-align: center;
 }
 
 #logo {
@@ -20,13 +19,11 @@ body {
 }
 
 #titulo {
-    position: absolute;
-    left: 50%;
-    top: 5%;
     padding: 20px;
+    margin: auto;
+    max-width: fit-content;
     background-color: rgba(228, 141, 35, 0.144);
     border-radius: 15px;
-    transform: translate(-50%, -5%);
     color: rgb(99, 39, 0);
     font-family: 'Big Shoulders Stencil Display', cursive;
     font-size: 120px;
