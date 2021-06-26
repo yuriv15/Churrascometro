@@ -18,9 +18,9 @@ function calcular() {
         cerveja = 1.2 * adultos + 1.2 * 0.5 * criancas;
         refri_agua = adultos + 0.5 * criancas;
     } else {
-        carne = 0.65 * adultos + 0.65 * 0.5 * criancas;
-        cerveja = 2 * adultos + 2 * 0.5 * criancas;
-        refri_agua = 1.5 * adultos + 1.5 * 0.5 * criancas;
+        carne = parseFloat(0.65 * adultos + 0.65 * 0.5 * criancas).toFixed(2);
+        cerveja = parseFloat(2 * adultos + 2 * 0.5 * criancas).toFixed(2);
+        refri_agua = parseFloat(1.5 * adultos + 1.5 * 0.5 * criancas).toFixed(2);
     }
 
     let qtd_carne = document.getElementById("qtd_carne");
