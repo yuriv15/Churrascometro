@@ -72,3 +72,101 @@ body {
     color: rgb(228, 141, 35);
     margin-top: 60px;
 }
+
+#link {
+    color: rgb(228, 141, 35);
+}
+
+#link:visited{
+    color: rgb(228, 141, 35);
+}
+
+#link:hover {
+    color: yellow;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-image: url("../images/barbecue.jpg");
+        background-size: 100px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #container {
+        max-width: 375px;
+        background-color: rgba(99, 40, 0, 0.89);
+        padding: 10px;
+        margin: auto;
+        box-sizing: border-box;
+        border-radius: 15px;
+        text-align: center;
+
+    }
+    
+    #logo {
+        width: 200px;
+        margin: 0;
+        opacity: 0.70;
+    }
+    
+    #titulo {
+        padding: 5px;
+        max-width: 375px;
+        box-sizing: border-box;
+        margin: auto;
+        border-radius: 0;
+        color: rgb(99, 39, 0);
+        font-family: 'Big Shoulders Stencil Display', cursive;
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    .dados {
+        display: block;
+        padding: 15px;
+        margin-bottom: 5px;
+        box-sizing: border-box;
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+        border: none;
+        border-radius: 50px;
+        font-family: 'Roboto', sans-serif;
+        background-color: rgba(228, 141, 35, 0.37);
+        color: rgba(255, 255, 255, 0.897);
+    }
+    
+    ::placeholder {
+        color: rgba(255, 255, 255, 0.897);
+    }
+    
+    #botao{
+        padding: 20px;
+        margin-top: 20px;
+        width: 100%;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        font-size: 15px;
+        background-color: rgb(99, 39, 0);
+        color: rgb(228, 141, 35);
+        border-radius: 50px;
+        border-color: rgb(228, 141, 35);
+        border: solid 2px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .resultado {
+        font-size: 1rem;
+        width: 100%;
+        text-align: center;
+        color: rgb(228, 141, 35);
+    }
+    
+    #creditos {
+        text-align: center;
+        color: rgb(228, 141, 35);
+        margin-top: 30px;
+        margin-bottom: 5px;
+    }
+}
